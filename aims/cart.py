@@ -25,12 +25,13 @@ class Cart:
 
     def total_cost(self):
         return sum(item.cost for item in self.items)
-    
+
     def sort_by_title(self):
         return sorted(self.items, key=lambda dvd: dvd.title.casefold())
 
     def sort_by_cost(self):
         return sorted(self.items, key=lambda dvd: dvd.cost)
+
     def total_cost_with_discount(self, percent):
         if not 0 <= percent <= 100:
             raise ValueError("percent must be between 0 and 100")
