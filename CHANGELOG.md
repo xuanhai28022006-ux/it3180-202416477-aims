@@ -1,6 +1,7 @@
 # Changelog
 
 ## [Unreleased]
+- Add search by DVD category.
 
 ### Added
 - Add sorting of DVDs by title and cost.
