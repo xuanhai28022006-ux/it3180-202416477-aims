@@ -1,9 +1,11 @@
 # Changelog
 
 ## [Unreleased]
-- Add search by DVD category.
+
+## [1.1.0] - 2026-11-06
 
 ### Added
+- Add search by DVD category.
 - Add sorting of DVDs by title and cost.
 
 ## [1.0.0] - 2026-11-06
