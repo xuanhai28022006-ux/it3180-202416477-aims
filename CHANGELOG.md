@@ -8,6 +8,9 @@
 - Add search by DVD category.
 - Add sorting of DVDs by title and cost.
 
+### Fixed
+- Make DVD title search case-insensitive.
+
 ## [1.0.0] - 2026-11-06
 
 
