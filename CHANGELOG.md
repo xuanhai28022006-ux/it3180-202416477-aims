@@ -8,6 +8,11 @@
 - Add search by DVD category.
 - Add sorting of DVDs by title and cost.
 
+## [1.0.1] - 2026-11-06
+
+### Fixed
+- Sửa tìm kiếm DVD theo tiêu đề để không phân biệt chữ hoa và chữ thường.
+
 ## [1.0.0] - 2026-11-06
 
 
