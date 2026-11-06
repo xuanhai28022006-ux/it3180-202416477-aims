@@ -17,6 +17,12 @@ class TestSearch(unittest.TestCase):
     def test_search_by_category_returns_matching_dvd(self):
         result = search_by_category(self.items, "Animation")
         self.assertEqual(result, [self.lion_king])
+        
+        
+    def test_lowercase_keyword_finds_title(self):
+        dvd = DigitalVideoDisc("The Lion King", "Animation")
+        result = search_by_title([dvd], "lion")
+        self.assertEqual(result, [dvd])
 
 
 if __name__ == "__main__":
